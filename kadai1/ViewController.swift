@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController{
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var label: UILabel!
-    @IBOutlet weak var tableViewCell: UITableView!
+    @IBOutlet weak var tableView: UITableView!
     
     var fruits = ["みかん","りんご","バナナ","キウイ","ブドウ","スイカ","レモン","いちご","メロン","パイナップル"]
     
@@ -27,7 +27,7 @@ class ViewController: UIViewController{
             // fruits配列に追加
             fruits.append(inputText)
             // tableViewを更新
-            tableViewCell.reloadData()
+            tableView.reloadData()
         }
     }
 }

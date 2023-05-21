@@ -77,7 +77,7 @@
                     </view>
                     <connections>
                         <outlet property="label" destination="eJ9-1g-We0" id="7Ru-dC-JW4"/>
-                        <outlet property="tableViewCell" destination="tFm-dg-3QF" id="yZ6-bO-bzC"/>
+                        <outlet property="tableView" destination="tFm-dg-3QF" id="yZ6-bO-bzC"/>
                         <outlet property="textField" destination="lpq-cI-D2c" id="Z35-ds-aiv"/>
                     </connections>
                 </viewController>
