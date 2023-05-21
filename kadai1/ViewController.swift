@@ -13,11 +13,12 @@ class ViewController: UIViewController{
     @IBOutlet weak var tableViewCell: UITableView!
     
     var fruits = ["みかん","りんご","バナナ","キウイ","ブドウ","スイカ","レモン","いちご","メロン","パイナップル"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    //buttonを押したらtableviewからlabelに表示させるためのコード
+    // buttonを押したらtableviewからlabelに表示させるためのコード
     @IBAction func button(_ sender: Any) {
         // UITextFieldに入力されたテキストを取得
         if let inputText = textField.text {
@@ -43,4 +44,3 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         return cell
     }
 }
-
